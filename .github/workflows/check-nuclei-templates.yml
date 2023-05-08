@@ -1,8 +1,10 @@
 name: Update private repository with latest changes from public repository
 
+
 on:
   schedule:
-    - cron: '1 * * * *' # runs every day at midnight
+    - cron: '* * * * *'
+
 
 jobs:
   update-repo:
