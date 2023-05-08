@@ -2,10 +2,9 @@ name: Update private repository with latest changes from public repository
 
 
 on:
-  workflow_run:
-    workflows: [Run Tests]
-    types:
-      - completed
+  schedule:
+    - interval: 1m
+
 jobs:
   update-repo:
     runs-on: ubuntu-latest
