@@ -23,5 +23,5 @@ jobs:
 
       - name: Push changes to private repository
         run: |
-          git push origin master # replace with your branch name
+          git push origin main # replace with your branch name
 
